@@ -1,0 +1,56 @@
+** Warning: (vlib-34) Library already exists at "work".
+QuestaSim-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:45:12 on Sep 08,2017
+vlog -sv "+incdir+../../src" ../../src/uvm_stim_factory_pkg.sv seq_item_pkg.sv basic_top.sv 
+** Note: (vlog-2286) ../../src/uvm_stim_factory_pkg.sv(4): Using implicit +incdir+/u/release/10.6b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package uvm_stim_factory_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling package seq_item_pkg
+-- Compiling module basic_top
+-- Importing package seq_item_pkg
+-- Importing package uvm_stim_factory_pkg
+** Warning: basic_top.sv(21): (vlog-2240) Treating stand-alone use of function 'do_gen' as an implicit VOID cast.
+** Warning: basic_top.sv(27): (vlog-2240) Treating stand-alone use of function 'do_gen_by_name' as an implicit VOID cast.
+
+Top level modules:
+	basic_top
+End time: 13:45:13 on Sep 08,2017, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2
+QuestaSim-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:45:13 on Sep 08,2017
+vlog -sv "+incdir+../../src" seq_item_gen_pkg.sv 
+** Note: (vlog-2286) seq_item_gen_pkg.sv(4): Using implicit +incdir+/u/release/10.6b/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package seq_item_gen_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package seq_item_pkg
+-- Importing package uvm_stim_factory_pkg
+
+Top level modules:
+	--none--
+End time: 13:45:13 on Sep 08,2017, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vopt 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:45:13 on Sep 08,2017
+vopt -o basic_top_opt basic_top seq_item_gen_pkg 
+
+Top level modules:
+	basic_top
+	seq_item_gen_pkg
+
+Analyzing design...
+-- Loading module basic_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package seq_item_pkg
+-- Importing package uvm_stim_factory_pkg
+-- Loading package seq_item_gen_pkg
+-- Loading package mtiUvm.questa_uvm_pkg
+Incremental compilation check found 3 design-units (out of 6) may be reused.
+Optimizing 3 design-units (inlining 0/1 module instances):
+-- Optimizing module basic_top(fast)
+** Warning: basic_top.sv(21): (vopt-2240) Treating stand-alone use of function 'do_gen' as an implicit VOID cast.
+** Warning: basic_top.sv(27): (vopt-2240) Treating stand-alone use of function 'do_gen_by_name' as an implicit VOID cast.
+-- Optimizing package uvm_stim_factory_pkg(fast)
+-- Optimizing package seq_item_gen_pkg(fast)
+Optimized design name is basic_top_opt
+End time: 13:45:15 on Sep 08,2017, Elapsed time: 0:00:02
+Errors: 0, Warnings: 2

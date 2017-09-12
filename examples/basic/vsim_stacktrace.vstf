@@ -1,0 +1,62 @@
+# Current time Thu Sep  7 14:27:10 2017
+# Program = vsim
+# Id = "10.6b"
+# Version = "2017.05"
+# Date = "May 25 2017"
+# Platform = linux_x86_64
+# Signature = 9431118a93e63307ab9bd9762b6c3da8
+# 0    0x00007fefee097803: '../../src/uvm_stim_factory.svh:30'
+# 1    0x00007fefee09b1f0: '../../src/uvm_stim_gen.svh:23'
+# 2    0x00007fefee099894: '../../src/uvm_stim_gen.svh:20'
+# 3    0x0000000000e32e2a: '<unknown (@0xe32e2a)>'
+# 4    0x0000000000496ffb: '<unknown (@0x496ffb)>'
+# 5    0x00000000005e8f45: '<unknown (@0x5e8f45)>'
+# 6    0x0000000000a20fe3: '<unknown (@0xa20fe3)>'
+# 7    0x0000000000a21981: '<unknown (@0xa21981)>'
+# 8    0x0000000000a230ce: '<unknown (@0xa230ce)>'
+# 9    0x000000000114027d: '<unknown (@0x114027d)>'
+# 10   0x00000000011446d6: '<unknown (@0x11446d6)>'
+# 11   0x0000000001145dc1: '<unknown (@0x1145dc1)>'
+# 12   0x0000000001146126: '<unknown (@0x1146126)>'
+# 13   0x0000000000e1ce2b: '<unknown (@0xe1ce2b)>'
+# 14   0x00000000011e602f: '<unknown (@0x11e602f)>'
+# 15   0x0000000001238fc7: '<unknown (@0x1238fc7)>'
+# 16   0x00000000011fbec7: '<unknown (@0x11fbec7)>'
+# 17   0x00000000011fc1a9: '<unknown (@0x11fc1a9)>'
+# 18   0x000000000105e7e6: '<unknown (@0x105e7e6)>'
+# 19   0x0000000000a008b6: '<unknown (@0xa008b6)>'
+# End of Stack Trace
+
+
+# Current time Fri Sep  8 13:24:48 2017
+# Program = vsim
+# Id = "10.6b"
+# Version = "2017.05"
+# Date = "May 25 2017"
+# Platform = linux_x86_64
+# Signature = 9431118a93e63307ab9bd9762b6c3da8
+# 0    0x00000000004f51bd: '<unknown (@0x4f51bd)>'
+# 1    0x00007fefee0c78d4: '../../src/uvm_stim_factory.svh:180'
+# 2    0x00007fefee0c81c8: '../../src/uvm_stim_factory.svh:202'
+# 3    0x00007fefee0c9e8a: '../../src/uvm_stim.svh:31'
+# 4    0x00007fefee0cce34: 'basic_top.sv:24'
+# 5    0x0000000000e32e2a: '<unknown (@0xe32e2a)>'
+# 6    0x0000000000496ffb: '<unknown (@0x496ffb)>'
+# 7    0x00000000005e8f45: '<unknown (@0x5e8f45)>'
+# 8    0x0000000000a20fe3: '<unknown (@0xa20fe3)>'
+# 9    0x0000000000a21981: '<unknown (@0xa21981)>'
+# 10   0x0000000000a230ce: '<unknown (@0xa230ce)>'
+# 11   0x000000000114027d: '<unknown (@0x114027d)>'
+# 12   0x00000000011446d6: '<unknown (@0x11446d6)>'
+# 13   0x0000000001145dc1: '<unknown (@0x1145dc1)>'
+# 14   0x0000000001146126: '<unknown (@0x1146126)>'
+# 15   0x0000000000e1ce2b: '<unknown (@0xe1ce2b)>'
+# 16   0x00000000011e602f: '<unknown (@0x11e602f)>'
+# 17   0x0000000001238fc7: '<unknown (@0x1238fc7)>'
+# 18   0x00000000011fbec7: '<unknown (@0x11fbec7)>'
+# 19   0x00000000011fc1a9: '<unknown (@0x11fc1a9)>'
+# 20   0x000000000105e7e6: '<unknown (@0x105e7e6)>'
+# 21   0x0000000000a008b6: '<unknown (@0xa008b6)>'
+# End of Stack Trace
+
+
